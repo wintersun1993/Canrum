@@ -10,14 +10,15 @@ public class MovementClass : MonoBehaviour
 	public float RotationSpeed = 10.0f;
 	private Quaternion _lookRotation;
 	private Vector3 _direction;
-	
+
 	void Start ()
 	{
-
 		target = transform.position;
 	}
 	void OnTriggerEnter(Collider other) {
-		Destroy (other.gameObject);
+		//Destroy (other.gameObject);
+		//rifle.SetActive(true);
+
 
 	}
 	void Update () 
