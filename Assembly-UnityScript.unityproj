@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{DE4D58B9-9806-231C-1C5A-BFCC2B777495}</ProjectGuid>
+	<ProjectGuid>{27089C31-3D06-F650-A455-135D54C311E9}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,6 +49,7 @@
      <Compile Include="Assets\SpaceScout\Scripts\CameraComponent.js" />
      <None Include="Assets\SpaceScout\Shaders\StarsFar.shader" />
      <None Include="Assets\SpaceScout\Shaders\StarsClose.shader" />
+     <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\SpaceScout\Shaders\ReflectiveSelfIllumDiffuse.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

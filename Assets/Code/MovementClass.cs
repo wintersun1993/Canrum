@@ -13,9 +13,13 @@ public class MovementClass : MonoBehaviour
 	
 	void Start ()
 	{
+
 		target = transform.position;
 	}
-	
+	void OnTriggerEnter(Collider other) {
+		Destroy (other.gameObject);
+
+	}
 	void Update () 
 	{
 		if (Input.GetMouseButtonDown(0)) 
