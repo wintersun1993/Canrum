@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
+public class Boundary
+{
+	public float xMin, xMax, zMin, zMax;
+}
 
 public class MovementClass : MonoBehaviour
 {
-	public float speed = 10.0f;
+	public float speed = 7.0f;
 	private Vector3 target;
 	public Transform Target;
-	public float RotationSpeed = 10.0f;
+	public float RotationSpeed = 5.0f;
 	private Quaternion _lookRotation;
 	private Vector3 _direction;
+	public Boundary boundary;
 
 	void Start ()
 	{
@@ -32,6 +38,13 @@ public class MovementClass : MonoBehaviour
 		_lookRotation = Quaternion.LookRotation(_direction);
 		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+		rigidbody.position = new Vector3 
+			(
+				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
+				0.0f, 
+				Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
+				);
 	}  
 }
 
