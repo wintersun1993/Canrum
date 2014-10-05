@@ -9,7 +9,14 @@ public class Enemy_Logic : MonoBehaviour {
 	void OnTriggerExit (){
 		rifle.SetActive (false);
 	}
+	//onclick fight starts
+
+	public void OnMouseDown(){
+
+		print ("FIGHT");
+	}
 	void Behaviour(){
 
 	}
+
 }
