@@ -17,8 +17,13 @@ public class MovementClass : MonoBehaviour
 	private Vector3 _direction;
 	public Boundary boundary;
 
+	public GUIText scoreText;
+	private int score;
+
 	void Start ()
 	{
+		score = 0;
+		UpdateScore ();
 		target = transform.position;
 	}
 	void OnTriggerEnter(Collider other) {
@@ -46,6 +51,16 @@ public class MovementClass : MonoBehaviour
 				Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
 				);
 	}  
+	public void AddScore (int newScoreValue)
+	{
+		score += newScoreValue;
+		UpdateScore ();
+	}
+	
+	void UpdateScore ()
+	{
+		scoreText.text = "Score: " + score;
+	}
 }
 
 	
