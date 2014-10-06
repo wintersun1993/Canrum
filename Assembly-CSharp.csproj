@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\BaseLogic.cs" />
+     <Compile Include="Assets\Code\EnemyMovement.cs" />
      <Compile Include="Assets\Code\Enemy_Logic.cs" />
      <Compile Include="Assets\Code\MovementClass.cs" />
      <None Include="Assets\SpaceScout\Shaders\StarsFar.shader" />
@@ -53,6 +55,7 @@
      <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\SpaceScout\Shaders\ReflectiveSelfIllumDiffuse.shader" />
+     <None Include="Assets\SciFi_Door\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

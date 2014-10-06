@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy_Logic : MovementClass {
+public class Enemy_Logic : EnemyMovement {
 	public GameObject rifle;
 	public bool clicked = false;
 	public int seconds = 0;
@@ -26,15 +26,19 @@ public class Enemy_Logic : MovementClass {
 
 	//show enemy menu
 	public void OnGUI(){
-		GUI.Box(new Rect(0,0,RectWidth,20), "Fuel");
-		GUI.Box(new Rect(0,20,Screen.width,20), "Amo");
+		GUI.Box(new Rect(0,0,Screen.width,20), "Health");
+		GUI.Box(new Rect(0,20,RectWidth,20), "Fuel");
+		GUI.Box(new Rect(0,40,Screen.width,20), "Amo");
+		GUI.Box(new Rect(0,80,50,50), "Gun 1");
+		GUI.Box(new Rect(0,140,50,50), "Gun 2");
+		GUI.Box(new Rect(0,200,50,50), "Gun 3");
 
-		if (clicked == true || colliding == true) {
-			GUI.Box(new Rect(100,100,100,100), seconds.ToString());
-		}
+		//if (clicked == true || colliding == true) {
+		//	GUI.Box(new Rect(100,100,100,100), seconds.ToString());
+		//}
 		if (colliding == true) {
 			GUI.color = Color.red;
-			GUI.Box(new Rect(0,40,AlertRectWidth,20), "ALERT");
+			GUI.Box(new Rect(0,60,AlertRectWidth,20), "ALERT");
 		}
 	}
 	void Update(){
@@ -46,8 +50,9 @@ public class Enemy_Logic : MovementClass {
 		//Hitpoints -- logic
 		if (colliding == true) {
 			seconds --;
-			AlertRectWidth = AlertRectWidth - 3.5f;
-			if (seconds == -400) {
+			AlertRectWidth = AlertRectWidth - 6f;
+			//Auto start battle
+			if (seconds == -250) {
 
 			}
 

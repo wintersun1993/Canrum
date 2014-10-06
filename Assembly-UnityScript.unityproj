@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CustomizableGun_FreeED\Scripts\CharacterViewerRotate.js" />
+     <Compile Include="Assets\SciFi_Door\Script\door.js" />
      <Compile Include="Assets\SpaceScout\Scripts\CameraComponent.js" />
      <None Include="Assets\SpaceScout\Shaders\StarsFar.shader" />
      <None Include="Assets\SpaceScout\Shaders\StarsClose.shader" />
      <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\SpaceScout\Shaders\ReflectiveSelfIllumDiffuse.shader" />
+     <None Include="Assets\SciFi_Door\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
