@@ -54,6 +54,7 @@
      <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\SpaceScout\Shaders\ReflectiveSelfIllumDiffuse.shader" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\SciFi_Door\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

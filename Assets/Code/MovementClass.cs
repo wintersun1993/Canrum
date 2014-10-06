@@ -27,8 +27,10 @@ public class MovementClass : MonoBehaviour
 
 
 	}
+
 	 void Update () 
 	{
+
 		if (Input.GetMouseButtonDown(0)) 
 		{
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);

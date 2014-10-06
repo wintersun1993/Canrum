@@ -50,11 +50,13 @@
      <Compile Include="Assets\Code\EnemyMovement.cs" />
      <Compile Include="Assets\Code\Enemy_Logic.cs" />
      <Compile Include="Assets\Code\MovementClass.cs" />
+     <Compile Include="Assets\Code\PlayerShooting.cs" />
      <None Include="Assets\SpaceScout\Shaders\StarsFar.shader" />
      <None Include="Assets\SpaceScout\Shaders\StarsClose.shader" />
      <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\SpaceScout\Shaders\ReflectiveSelfIllumDiffuse.shader" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\SciFi_Door\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
