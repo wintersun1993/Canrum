@@ -10,14 +10,14 @@ public class Boundary
 public class MovementClass : MonoBehaviour
 {
 	public float speed = 7.0f;
-	private Vector3 target;
+	public Vector3 target;
 	public Transform Target;
 	public float RotationSpeed = 5.0f;
-	private Quaternion _lookRotation;
-	private Vector3 _direction;
+	public Quaternion _lookRotation;
+	public Vector3 _direction;
 	public Boundary boundary;
 
-	void Start ()
+	public void Start ()
 	{		
 		target = transform.position;
 	}
@@ -27,7 +27,7 @@ public class MovementClass : MonoBehaviour
 
 
 	}
-	void Update () 
+	 void Update () 
 	{
 		if (Input.GetMouseButtonDown(0)) 
 		{
