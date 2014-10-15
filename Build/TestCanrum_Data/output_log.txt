@@ -12,11 +12,7 @@ Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumGame\trunk\Build\Tes
 Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumGame\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumGame\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumGame\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.144 seconds
+- Completed reload, in  0.125 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-The referenced script on this Behaviour is missing!
- 
-(Filename:  Line: 1783)
-
