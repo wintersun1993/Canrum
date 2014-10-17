@@ -3,33 +3,33 @@ using System.Collections;
 
 public class Enemy_Logic : EnemyMovement
 {
-    public GameObject rifle;
+    
     public bool clicked = false;
     public int seconds = 0;
     public bool colliding = false;
 
-    public GUIText scoreText;
-    public int score = 0;
+    
+
 
     float RectWidth = Screen.width;
     float AlertRectWidth = Screen.width;
     //collision
     void OnTriggerEnter(Collider other)
     {
-        rifle.SetActive(true);
+        
         colliding = true;
-        audio.Play();
+       
 
-        score += 10;
-        UpdateScore();
+    
+        
     }
     //collision out
     void OnTriggerExit()
     {
-        rifle.SetActive(false);
+        
         colliding = false;
         seconds = 0;
-        audio.Stop();
+        
     }
     //onclick fight starts
 
@@ -83,8 +83,5 @@ public class Enemy_Logic : EnemyMovement
         }
     }
 
-    void UpdateScore()
-    {
-        scoreText.text = "Score: " + score;
-    }
+    
 }
