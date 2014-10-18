@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\MovementClass.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\PlayerShooting.cs">
     <Files>
-      <File FileName="Assets\Code\PlayerShooting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\MovementClass.cs" Line="69" Column="3" />
-      <File FileName="Assets\Code\BaseLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\PlayerShooting.cs" Line="22" Column="48" />
+      <File FileName="Assets\Code\MovementClass.cs" Line="39" Column="3" />
+      <File FileName="Assets\Code\BaseLogic.cs" Line="9" Column="2" />
       <File FileName="Assets\Code\MainMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\SpaceScout\Scripts\CameraComponent.js" Line="1" Column="1" />
       <File FileName="Assets\Code\BulletMover.cs" Line="9" Column="36" />
-      <File FileName="Assets\Code\Enemy_Logic.cs" Line="6" Column="5" />
+      <File FileName="Assets\Code\Enemy_Logic.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
