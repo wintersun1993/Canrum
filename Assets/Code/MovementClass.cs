@@ -24,12 +24,6 @@ public class MovementClass : MonoBehaviour
 	{		
 		target = transform.position;
 	}
-	void OnTriggerEnter(Collider other) {
-		//Destroy (other.gameObject);
-		//rifle.SetActive(true);
-
-
-	}
 
 	public void OnGUI()
 	{
@@ -70,7 +64,7 @@ public class MovementClass : MonoBehaviour
 		{
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			target.y = transform.position.y;
-			audio.Play();
+
 		}
 
 		_direction = (target-(Target.position)).normalized;
