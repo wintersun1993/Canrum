@@ -2,14 +2,15 @@ using UnityEngine;
 using System.Collections;
 
 public class Done_EvasiveManeuver : MonoBehaviour
-{
+{   
+    public Vector2 startWait;
+	public Vector2 maneuverTime;
+	public Vector2 maneuverWait;
 	public Done_Boundary boundary;
 	public float tilt;
 	public float dodge;
 	public float smoothing;
-	public Vector2 startWait;
-	public Vector2 maneuverTime;
-	public Vector2 maneuverWait;
+	
 
 	private float currentSpeed;
 	private float targetManeuver;
