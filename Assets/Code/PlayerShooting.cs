@@ -20,11 +20,13 @@ public class PlayerShooting : MonoBehaviour {
 	public int gun4Shots;
 	public int shieldLife;
 	public bool shieldActive = false;
+	public GameObject explosion;
 	void OnTriggerEnter(Collider other) {
 
 		if (shieldActive == true && shieldLife < 10) {
 			audio.Play();
 			Destroy (other.gameObject);
+			Instantiate(explosion, transform.position, transform.rotation);
 			shieldLife += 1;
 		}
 		if (shieldLife == 10) {
