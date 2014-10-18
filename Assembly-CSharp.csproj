@@ -50,6 +50,7 @@
      <Compile Include="Assets\Code\BaseLogic.cs" />
      <Compile Include="Assets\Code\BulletMover.cs" />
      <Compile Include="Assets\Code\EnemyMovement.cs" />
+     <Compile Include="Assets\Code\EnemySpawn.cs" />
      <Compile Include="Assets\Code\Enemy_Logic.cs" />
      <Compile Include="Assets\Code\MainMenu.cs" />
      <Compile Include="Assets\Code\MovementClass.cs" />

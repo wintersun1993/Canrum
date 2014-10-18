@@ -66,11 +66,13 @@ public class MovementClass : MonoBehaviour
 		}
 		
 
-		if (Input.GetMouseButtonDown(0)) 
+		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) 
 		{
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			target.y = transform.position.y;
+			audio.Play();
 		}
+
 		_direction = (target-(Target.position)).normalized;
 		_lookRotation = Quaternion.LookRotation(_direction);
 		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
@@ -78,10 +80,12 @@ public class MovementClass : MonoBehaviour
 
 		rigidbody.position = new Vector3 
 			(
+
 				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
 				0.0f, 
 				Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
 				);
+	
 	}  	
 }
 
