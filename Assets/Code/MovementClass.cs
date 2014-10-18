@@ -35,7 +35,7 @@ public class MovementClass : MonoBehaviour
 	{
 		GUI.Box(new Rect(0, 0, Screen.width, 20), "Health");
 		GUI.Box(new Rect(0, 20, RectWidth, 20), "Fuel");
-		GUI.Box(new Rect(0, 40, Screen.width, 20), "Amo");
+
 
 		
 		//if (clicked == true || colliding == true) {

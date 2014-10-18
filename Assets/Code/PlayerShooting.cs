@@ -9,40 +9,63 @@ public class PlayerShooting : MonoBehaviour {
 	public Transform bulletSpawn;
 	public float fireRate;
 	private float nextFire;
-	public int guns = 1;
+
+	public int gunsType = 1;
+
+	public int gun1Shots;
+	public int gun2Shots;
+	public int gun3Shots;
 
 	void Update()
 	{
 		//Instantiate (bullet, bulletSpawn.position, bulletSpawn.rotation);
-		if (Input.GetButton ("Fire2") && Time.time > nextFire && guns == 1) {
+		if (Input.GetButton ("Fire2") && Time.time > nextFire && gunsType == 1) {
 			nextFire = Time.time + fireRate;
+			gun1Shots += 1;
+
 			//GameObject clone = 
 			Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation); //as GameObject;
 		}
-		if (Input.GetButton ("Fire2") && guns == 2) {
+		if (Input.GetButton ("Fire2") && gunsType == 2) {
 			nextFire = Time.time + fireRate;
-			//GameObject clone = 
+			gun2Shots += 1;
+			if (gun2Shots == 100) {
+				gunsType = 1;
+			}
+			else if (gunsType == 2){//GameObject clone = 
 			Instantiate(bullet2, bulletSpawn.position, bulletSpawn.rotation); //as GameObject;
+			}
 		}
-		if (Input.GetButton ("Fire2") && Time.time > nextFire && guns == 3) {
+		if (Input.GetButton ("Fire2") && Time.time > nextFire && gunsType == 3) {
 			nextFire = Time.time + fireRate;
+			gun3Shots += 10;
+			if (gun3Shots == 100) {
+				gunsType = 1;
+			}
 			//GameObject clone = 
 			Instantiate(bullet3, bulletSpawn.position, bulletSpawn.rotation); //as GameObject;
 		}
+	
 	}
 	public void OnGUI()
 	{
 
 		//Changes the guns
-		if (GUI.Button (new Rect (0, 80, 50, 50), "Gun 1")) {
-			guns = 1;
+		if (GUI.Button (new Rect (0, 80, 100, 50), "Rocket #")) {
+			gunsType = 1;
+
+
+
 		}
-		
-		if (GUI.Button (new Rect (0, 140, 50, 50), "Gun 2")) {
-			guns = 2;
+		int lazerShots = 100 - gun2Shots;
+		if (GUI.Button (new Rect (0, 140, lazerShots, 50), "Lazer +" + lazerShots.ToString())) {
+			gunsType = 2;
+
 		}
-		if (GUI.Button (new Rect (0, 200, 50, 50), "Gun 3")) {
-			guns = 3;
+		int bomberShots = 100 - gun3Shots;
+		if (GUI.Button (new Rect (0, 200, bomberShots, 50), "Bomber +" + bomberShots.ToString())) {
+			gunsType = 3;
+
 		}
 	}
 }
