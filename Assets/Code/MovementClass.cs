@@ -36,9 +36,7 @@ public class MovementClass : MonoBehaviour
 		GUI.Box(new Rect(0, 0, Screen.width, 20), "Health");
 		GUI.Box(new Rect(0, 20, RectWidth, 20), "Fuel");
 		GUI.Box(new Rect(0, 40, Screen.width, 20), "Amo");
-		GUI.Box(new Rect(0, 80, 50, 50), "Gun 1");
-		GUI.Box(new Rect(0, 140, 50, 50), "Gun 2");
-		GUI.Box(new Rect(0, 200, 50, 50), "Gun 3");
+
 		
 		//if (clicked == true || colliding == true) {
 		//	GUI.Box(new Rect(100,100,100,100), seconds.ToString());
