@@ -9,7 +9,7 @@ public class Boundary
 
 public class MovementClass : MonoBehaviour
 {
-	public float speed = 7.0f;
+	private float speed = 6.0f;
 	public Vector3 target;
 	public Transform Target;
 	public float RotationSpeed = 5.0f;
@@ -24,13 +24,13 @@ public class MovementClass : MonoBehaviour
 	{		
 		target = transform.position;
 	}
-
+	
 	public void OnGUI()
 	{
 		GUI.Box(new Rect(0, 0, Screen.width, 20), "Health");
 		GUI.Box(new Rect(0, 20, RectWidth, 20), "Fuel");
-
-
+		
+		
 		
 		//if (clicked == true || colliding == true) {
 		//	GUI.Box(new Rect(100,100,100,100), seconds.ToString());
@@ -41,7 +41,7 @@ public class MovementClass : MonoBehaviour
 			GUI.Box(new Rect(0, 60, AlertRectWidth, 20), "ALERT");
 		}
 	}
-	 void Update () 
+	void Update () 
 	{
 		RectWidth = RectWidth - 0.01f;
 		if (colliding == true)
@@ -59,31 +59,30 @@ public class MovementClass : MonoBehaviour
 			AlertRectWidth = Screen.width;
 		}
 		
-
+		
 		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) 
 		{
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			target.y = transform.position.y;
-
 		}
-
+		
 		_direction = (target-(Target.position)).normalized;
 		_lookRotation = Quaternion.LookRotation(_direction);
 		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
-
+		
 		rigidbody.position = new Vector3 
 			(
-
+				
 				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
 				0.0f, 
 				Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
 				);
-	
+		
 	}  	
 }
 
-	
+
 
 
 

@@ -2,13 +2,13 @@ using UnityEngine;
 using System.Collections;
 
 public class EnemySpawn : MonoBehaviour
-{   
-    public float spawnWait = 1;
-	public float startWait = 1;
-	public float waveWait = 1;
-    public GameObject enemy;
+{
+	public GameObject enemy;
 	public Vector3 spawnValues;
 	public int enemyCount = 30;
+	private float spawnWait = 3;
+	public float startWait = 1;
+	public float waveWait = 1;
 	
 	void Start ()
 	{
@@ -16,7 +16,7 @@ public class EnemySpawn : MonoBehaviour
 	}
 	
 	IEnumerator SpawnWaves ()
-	{
+	{	
 		yield return new WaitForSeconds (startWait);
 		while (true)
 		{
@@ -30,5 +30,5 @@ public class EnemySpawn : MonoBehaviour
 			yield return new WaitForSeconds (waveWait);
 		}
 	}
-
+	
 }
