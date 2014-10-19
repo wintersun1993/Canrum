@@ -2,11 +2,12 @@
 using System.Collections;
 
 public class Done_WeaponController : MonoBehaviour
-{
+{   
+    public float fireRate;
+	public float delay;
 	public GameObject shot;
 	public Transform shotSpawn;
-	public float fireRate;
-	public float delay;
+	
 
 	void Start ()
 	{
