@@ -6,6 +6,7 @@ public class Done_GameController : MonoBehaviour
 	public GameObject[] hazards;
 	public Vector3 spawnValues;
 	public int hazardCount;
+
 	public float spawnWait;
 	public float startWait;
 	public float waveWait;

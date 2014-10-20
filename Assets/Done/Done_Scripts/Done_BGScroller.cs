@@ -2,11 +2,13 @@
 using System.Collections;
 
 public class Done_BGScroller : MonoBehaviour
-{
+{   
+    private Vector3 startPosition;
+
 	public float scrollSpeed;
 	public float tileSizeZ;
 
-	private Vector3 startPosition;
+	
 
 	void Start ()
 	{

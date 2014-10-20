@@ -2,11 +2,13 @@
 using System.Collections;
 
 public class Done_DestroyByContact : MonoBehaviour
-{
+{   
+    private Done_GameController gameController;
+
 	public GameObject explosion;
 	public GameObject playerExplosion;
 	public int scoreValue;
-	private Done_GameController gameController;
+	
 
 	void Start ()
 	{

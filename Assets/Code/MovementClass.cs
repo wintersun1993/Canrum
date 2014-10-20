@@ -12,9 +12,9 @@ public class MovementClass : MonoBehaviour
 	private float speed = 6.0f;
 	public Vector3 target;
 	public Transform Target;
-	public float RotationSpeed = 5.0f;
 	public Quaternion _lookRotation;
-	public Vector3 _direction;
+    public Vector3 _direction;
+    public float RotationSpeed = 5.0f;
 	public Boundary boundary;
 	public int seconds = 0;
 	public bool colliding = false;
