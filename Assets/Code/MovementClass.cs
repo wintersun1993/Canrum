@@ -8,16 +8,17 @@ public class Boundary
 }
 
 public class MovementClass : MonoBehaviour
-{
-	private float speed = 6.0f;
+{   
+    public int seconds = 0;
+	public bool colliding = false;
+	private float speed = 6.0f; 
+    public float RotationSpeed = 5.0f;
 	public Vector3 target;
 	public Transform Target;
 	public Quaternion _lookRotation;
     public Vector3 _direction;
-    public float RotationSpeed = 5.0f;
-	public Boundary boundary;
-	public int seconds = 0;
-	public bool colliding = false;
+    public Boundary boundary;
+	
 	float RectWidth = Screen.width;
 	float AlertRectWidth = Screen.width;
 	public void Start ()

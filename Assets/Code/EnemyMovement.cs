@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class EnemyMovement : MonoBehaviour {
-	public float speed;
-	public Transform Player;
+
+	
 	private float MinDist=0.0f;
 	
+    public float speed;
+	public Transform Player;
 	
 	void Start()
 	{
