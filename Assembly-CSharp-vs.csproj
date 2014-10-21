@@ -49,12 +49,14 @@
      <Compile Include="Assets\Bullet_shooting.cs" />
      <Compile Include="Assets\Code\BaseLogic.cs" />
      <Compile Include="Assets\Code\BulletMover.cs" />
+     <Compile Include="Assets\Code\CameraMove.cs" />
      <Compile Include="Assets\Code\EnemyLifetime.cs" />
      <Compile Include="Assets\Code\EnemyMovement.cs" />
      <Compile Include="Assets\Code\EnemySpawn.cs" />
      <Compile Include="Assets\Code\Enemy_Logic.cs" />
      <Compile Include="Assets\Code\MainMenu.cs" />
      <Compile Include="Assets\Code\MovementClass.cs" />
+     <Compile Include="Assets\Code\PlayerExperience.cs" />
      <Compile Include="Assets\Code\PlayerShooting.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />

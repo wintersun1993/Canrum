@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyLifetime : MonoBehaviour
 {
-	public float lifetime;
+	private float lifetime = 600.0f;
 	
 	void Start ()
 	{

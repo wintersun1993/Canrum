@@ -4,7 +4,7 @@ using System.Collections;
 [System.Serializable]
 public class Boundary
 {
-	public float xMin, xMax, zMin, zMax;
+	public float xMin = -32, xMax = 22, zMin = -3, zMax = -1;
 }
 
 public class MovementClass : MonoBehaviour
@@ -12,7 +12,7 @@ public class MovementClass : MonoBehaviour
     public int seconds = 0;
 	public bool colliding = false;
 	private float speed = 6.0f; 
-    public float RotationSpeed = 5.0f;
+    private float RotationSpeed = 5.0f;
 	public Vector3 target;
 	public Transform Target;
 	public Quaternion _lookRotation;
@@ -59,18 +59,19 @@ public class MovementClass : MonoBehaviour
 		{
 			AlertRectWidth = Screen.width;
 		}
-		
+
 		
 		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) 
 		{
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			target.y = transform.position.y;
+			_direction = (target-(Target.position)).normalized;
+			_lookRotation = Quaternion.LookRotation(_direction);
+
 		}
-		
-		_direction = (target-(Target.position)).normalized;
-		_lookRotation = Quaternion.LookRotation(_direction);
 		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
 		
 		rigidbody.position = new Vector3 
 			(
