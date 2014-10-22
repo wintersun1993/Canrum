@@ -10,6 +10,6 @@ public class Bullet_shooting : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 }

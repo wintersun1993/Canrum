@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PlayerExperience : MonoBehaviour
 {
-	public static int level=0;
-	public static int experience=0;
+	public static int level = 0;
+	public static int experience = 0;
 
 	public static int Experience
 	{

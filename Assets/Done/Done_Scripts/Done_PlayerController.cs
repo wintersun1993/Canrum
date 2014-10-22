@@ -8,16 +8,16 @@ public class Done_Boundary
 }
 
 public class Done_PlayerController : MonoBehaviour
-{
+{   
+    private float nextFire;
+    
+    public float fireRate;
 	public float speed;
 	public float tilt;
-	public Done_Boundary boundary;
 
-	public GameObject shot;
+	public Done_Boundary boundary;
+    public GameObject shot;
 	public Transform shotSpawn;
-	public float fireRate;
-	 
-	private float nextFire;
 	
 	void Update ()
 	{

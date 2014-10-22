@@ -8,8 +8,7 @@ public class Done_WeaponController : MonoBehaviour
 	public GameObject shot;
 	public Transform shotSpawn;
 	
-
-	void Start ()
+    void Start ()
 	{
 		InvokeRepeating ("Fire", delay, fireRate);
 	}

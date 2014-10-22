@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Done_EvasiveManeuver : MonoBehaviour
 {   
+    private float currentSpeed;
+	private float targetManeuver;
+
     public Vector2 startWait;
 	public Vector2 maneuverTime;
 	public Vector2 maneuverWait;
@@ -11,11 +14,7 @@ public class Done_EvasiveManeuver : MonoBehaviour
 	public float dodge;
 	public float smoothing;
 	
-
-	private float currentSpeed;
-	private float targetManeuver;
-
-	void Start ()
+    void Start ()
 	{
 		currentSpeed = rigidbody.velocity.z;
 		StartCoroutine(Evade());

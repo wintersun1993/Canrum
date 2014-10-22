@@ -2,7 +2,11 @@
 using System.Collections;
 
 public class Done_GameController : MonoBehaviour
-{
+{   
+    private bool gameOver;
+	private bool restart;
+	private int score;
+
 	public GameObject[] hazards;
 	public Vector3 spawnValues;
 	public int hazardCount;
@@ -15,9 +19,7 @@ public class Done_GameController : MonoBehaviour
 	public GUIText restartText;
 	public GUIText gameOverText;
 	
-	private bool gameOver;
-	private bool restart;
-	private int score;
+	
 	
 	void Start ()
 	{

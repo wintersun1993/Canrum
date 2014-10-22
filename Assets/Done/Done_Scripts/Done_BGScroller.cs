@@ -8,8 +8,6 @@ public class Done_BGScroller : MonoBehaviour
 	public float scrollSpeed;
 	public float tileSizeZ;
 
-	
-
 	void Start ()
 	{
 		startPosition = transform.position;

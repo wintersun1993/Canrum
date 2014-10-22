@@ -3,13 +3,13 @@ using System.Collections;
 
 public class Done_DestroyByContact : MonoBehaviour
 {   
+    
     private Done_GameController gameController;
-
+    
+    public int scoreValue;
 	public GameObject explosion;
 	public GameObject playerExplosion;
-	public int scoreValue;
 	
-
 	void Start ()
 	{
 		GameObject gameControllerObject = GameObject.FindGameObjectWithTag ("GameController");
@@ -19,7 +19,7 @@ public class Done_DestroyByContact : MonoBehaviour
 		}
 		if (gameController == null)
 		{
-			Debug.Log ("Cannot find 'GameController' script");
+			Debug.Log ("Cannot find 'GameController' script!!!");
 		}
 	}
 

@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
 	private float MinDist=0.0f;
 	private float speed=-3;
+
 	public Transform Player;
 	
 	void Start()

@@ -2,13 +2,15 @@ using UnityEngine;
 using System.Collections;
 
 public class EnemySpawn : MonoBehaviour
-{
+{   
+    private float spawnWait = 3;
+    
+    public float startWait = 1;
+	public float waveWait = 1;
+
 	public GameObject enemy;
 	public Vector3 spawnValues;
 	public int enemyCount = 30;
-	private float spawnWait = 3;
-	public float startWait = 1;
-	public float waveWait = 1;
 	
 	void Start ()
 	{

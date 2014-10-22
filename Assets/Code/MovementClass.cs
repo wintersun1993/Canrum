@@ -3,10 +3,12 @@ using System.Collections;
 
 public class MovementClass : MonoBehaviour
 {   
+    private float RotationSpeed = 5.0f;
+ 
     public int seconds = 0;
 	public bool colliding = false;
 	public float speed = 6.0f; 
-    private float RotationSpeed = 5.0f;
+    
 	public Vector3 target;
 	public Transform Target;
 	public Quaternion _lookRotation;
