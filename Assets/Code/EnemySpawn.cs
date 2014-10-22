@@ -3,7 +3,19 @@ using System.Collections;
 
 public class EnemySpawn : MonoBehaviour
 {   
-    private float spawnWait = 3;
+    public static float spawnWait = 3;
+
+	public static float SpawnWait
+	{
+		get
+		{
+			return spawnWait;
+		}
+		set
+		{
+			spawnWait=value;
+		}
+	}
     
     public float startWait = 1;
 	public float waveWait = 1;
