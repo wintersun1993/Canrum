@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CollisionLogic.js" />
      <Compile Include="Assets\SciFi_Door\Script\door.js" />
      <Compile Include="Assets\SpaceScout\Scripts\CameraComponent.js" />
      <None Include="Assets\SpaceScout\Shaders\StarsFar.shader" />

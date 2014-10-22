@@ -31,7 +31,7 @@ public class MovementClass : MonoBehaviour
 		}
 		
 		GUI.color = Color.red;
-		GUI.Box(new Rect(Screen.width-150,Screen.height-120,100,30), "HP : " + "100");
+		GUI.Box(new Rect(Screen.width-150,Screen.height-120,100,30), "HP : " + PlayerVitals.HP);
 
 		GUI.color = Color.yellow;
 		GUI.Box(new Rect(Screen.width-150,Screen.height-90,100,30), "Exp : " + PlayerVitals.Experience);
