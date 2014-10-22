@@ -1,12 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[System.Serializable]
-public class Boundary
-{
-	public float xMin = -32, xMax = 22, zMin = -3, zMax = -1;
-}
-
 public class MovementClass : MonoBehaviour
 {   
     public int seconds = 0;
@@ -17,10 +11,10 @@ public class MovementClass : MonoBehaviour
 	public Transform Target;
 	public Quaternion _lookRotation;
     public Vector3 _direction;
-    public Boundary boundary;
 	
 	float RectWidth = Screen.width;
 	float AlertRectWidth = Screen.width;
+
 	public void Start ()
 	{		
 		target = transform.position;
@@ -28,22 +22,22 @@ public class MovementClass : MonoBehaviour
 	
 	public void OnGUI()
 	{
-		GUI.Box(new Rect(0, 0, Screen.width, 20), "Health");
-		GUI.Box(new Rect(0, 20, RectWidth, 20), "Fuel");
-		
-		
-		
-		//if (clicked == true || colliding == true) {
-		//	GUI.Box(new Rect(100,100,100,100), seconds.ToString());
-		//}
 		if (colliding == true)
 		{
 			GUI.color = Color.red;
 			GUI.Box(new Rect(0, 60, AlertRectWidth, 20), "ALERT");
 		}
-		GUILayout.Label( "Experience = " + PlayerExperience.Experience);
-		GUILayout.Label( "Level = " + PlayerExperience.Level);
+		
+		GUI.color = Color.red;
+		GUI.Box(new Rect(900,490,100,30), "HP : " + "100");
+
+		GUI.color = Color.yellow;
+		GUI.Box(new Rect(900,520,100,30), "Exp : " + PlayerExperience.Experience);
+
+		GUI.color = Color.green;
+		GUI.Box(new Rect(900,550,100,30), "Level : " + PlayerExperience.Level);
 	}
+
 	void Update () 
 	{
 		RectWidth = RectWidth - 0.01f;
@@ -51,7 +45,6 @@ public class MovementClass : MonoBehaviour
 		{
 			seconds--;
 			AlertRectWidth = AlertRectWidth - 6f;
-			//Auto start battle
 			if (seconds == -250)
 			{
 				
@@ -62,27 +55,23 @@ public class MovementClass : MonoBehaviour
 			AlertRectWidth = Screen.width;
 		}
 
-		
-		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) 
+		if (Input.GetMouseButton(0) || Input.GetMouseButton(1)) 
 		{
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			target.y = transform.position.y;
 			_direction = (target-(Target.position)).normalized;
 			_lookRotation = Quaternion.LookRotation(_direction);
-
 		}
+
 		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-		
 		rigidbody.position = new Vector3 
 			(
-				
-				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
+				Mathf.Clamp (rigidbody.position.x,-55.0f, 50.0f), 
 				0.0f, 
-				Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
+				Mathf.Clamp (rigidbody.position.z, -40.0f, 16.0f)
 				);
-		
 	}  	
 }
 

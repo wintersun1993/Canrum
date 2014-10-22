@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\PlayerExperience.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Boundary.cs">
     <Files>
-      <File FileName="Assets\Code\PlayerExperience.cs" Line="40" Column="11" />
-      <File FileName="Assets\Code\BulletMover.cs" Line="17" Column="19" />
-      <File FileName="Assets\Code\MovementClass.cs" Line="46" Column="3" />
+      <File FileName="Assets\Code\PlayerShooting.cs" Line="10" Column="2" />
+      <File FileName="Assets\Code\MovementClass.cs" Line="19" Column="22" />
+      <File FileName="Assets\Code\Boundary.cs" Line="8" Column="1" />
+      <File FileName="Assets\Code\PlayerExperience.cs" Line="66" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -13,13 +13,13 @@ Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\Test
 Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.119 seconds
+- Completed reload, in  0.089 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.950400 ms
+UnloadTime: 0.872666 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 264.
-Total: 7.767467 ms (FindLiveObjects: 0.017600 ms CreateObjectMapping: 0.023466 ms MarkObjects: 0.236133 ms  DeleteObjects: 6.533023 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 268.
+Total: 1.685689 ms (FindLiveObjects: 0.016133 ms CreateObjectMapping: 0.023955 ms MarkObjects: 0.210222 ms  DeleteObjects: 0.518222 ms)
 

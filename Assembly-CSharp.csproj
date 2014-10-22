@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Bullet_shooting.cs" />
      <Compile Include="Assets\Code\BaseLogic.cs" />
+     <Compile Include="Assets\Code\Boundary.cs" />
      <Compile Include="Assets\Code\BulletMover.cs" />
      <Compile Include="Assets\Code\CameraMove.cs" />
      <Compile Include="Assets\Code\EnemyLifetime.cs" />

@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MainMenu : MonoBehaviour {
+public class MainMenu : MonoBehaviour
+{
 	public bool isQuit=false;
 
 	void OnMouseEnter()
@@ -25,5 +26,4 @@ public class MainMenu : MonoBehaviour {
 			Application.LoadLevel("Main");
 		}
 	}
-
 }

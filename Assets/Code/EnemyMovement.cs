@@ -2,12 +2,10 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class EnemyMovement : MonoBehaviour {
-
-	
+public class EnemyMovement : MonoBehaviour
+{
 	private float MinDist=0.0f;
-	
-    private float speed=-3;
+	private float speed=-3;
 	public Transform Player;
 	
 	void Start()
@@ -19,10 +17,9 @@ public class EnemyMovement : MonoBehaviour {
 	{
 		transform.LookAt(Player);
 		
-		if(Vector3.Distance(transform.position,Player.position) >= MinDist){
-			
+		if(Vector3.Distance(transform.position,Player.position) >= MinDist)
+		{
 			transform.position -= transform.forward*speed*Time.deltaTime;
-			
 		}
 	}
 }
