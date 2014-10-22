@@ -11,7 +11,7 @@ public class MovementClass : MonoBehaviour
 {   
     public int seconds = 0;
 	public bool colliding = false;
-	private float speed = 6.0f; 
+	public float speed = 6.0f; 
     private float RotationSpeed = 5.0f;
 	public Vector3 target;
 	public Transform Target;
@@ -41,6 +41,8 @@ public class MovementClass : MonoBehaviour
 			GUI.color = Color.red;
 			GUI.Box(new Rect(0, 60, AlertRectWidth, 20), "ALERT");
 		}
+		GUILayout.Label( "Experience = " + PlayerExperience.Experience);
+		GUILayout.Label( "Level = " + PlayerExperience.Level);
 	}
 	void Update () 
 	{
