@@ -1,29 +1,62 @@
 Initialize engine version: 4.5.4f1 (e036f44c54c9)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1247]
+    Version:  Direct3D 9.0c [aticfx64.dll 8.17.10.1247]
     Renderer: AMD Radeon HD 6480G
     Vendor:   ATI
     VRAM:     1267 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumNew\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.211 seconds
+Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.083 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-The referenced script on this Behaviour is missing!
- 
-(Filename:  Line: 1783)
-
-UnloadTime: 22.503559 ms
+UnloadTime: 0.729422 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 269.
-Total: 2.396533 ms (FindLiveObjects: 0.164755 ms CreateObjectMapping: 0.436088 ms MarkObjects: 0.424355 ms  DeleteObjects: 0.465422 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 309.
+Total: 4.081733 ms (FindLiveObjects: 0.020044 ms CreateObjectMapping: 0.023955 ms MarkObjects: 0.233688 ms  DeleteObjects: 2.862933 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerVitals.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
 
