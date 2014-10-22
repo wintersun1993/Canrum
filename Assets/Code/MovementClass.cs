@@ -31,13 +31,13 @@ public class MovementClass : MonoBehaviour
 		}
 		
 		GUI.color = Color.red;
-		GUI.Box(new Rect(900,490,100,30), "HP : " + "100");
+		GUI.Box(new Rect(Screen.width-150,Screen.height-120,100,30), "HP : " + "100");
 
 		GUI.color = Color.yellow;
-		GUI.Box(new Rect(900,520,100,30), "Exp : " + PlayerExperience.Experience);
+		GUI.Box(new Rect(Screen.width-150,Screen.height-90,100,30), "Exp : " + PlayerVitals.Experience);
 
 		GUI.color = Color.green;
-		GUI.Box(new Rect(900,550,100,30), "Level : " + PlayerExperience.Level);
+		GUI.Box(new Rect(Screen.width-150,Screen.height-60,100,30), "Level : " + PlayerVitals.Level);
 	}
 
 	void Update () 

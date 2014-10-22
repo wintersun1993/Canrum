@@ -16,6 +16,6 @@ public class BulletMover : MonoBehaviour
 		Instantiate(explosion, transform.position, transform.rotation);
 		Destroy (other.gameObject);
 		Destroy (gameObject);
-		PlayerExperience.Experience += 10;
+		PlayerVitals.Experience += 10;
 	}
 }

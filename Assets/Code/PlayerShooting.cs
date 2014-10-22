@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 
 public class PlayerShooting : MonoBehaviour {
-		
 	public GameObject bullet;
 	public GameObject bullet2;
 	public GameObject bullet3;
@@ -35,7 +34,7 @@ public class PlayerShooting : MonoBehaviour {
 			Destroy (other.gameObject);
 			Instantiate(explosion, transform.position, transform.rotation);
 			shieldLife += 1;
-			PlayerExperience.Experience+=10;
+			PlayerVitals.Experience+=10;
 		}
 
 		if (shieldLife == 5)
@@ -49,6 +48,8 @@ public class PlayerShooting : MonoBehaviour {
 
 	void Update()
 	{
+		rocketShots = 100 - gun1Shots;
+		laserShot = 50 - gun2Shots;
 		if (Input.GetButton ("Fire2") && Time.time > nextFire && gunsType == 1)
 		{
 			fireRate = 0.30f;

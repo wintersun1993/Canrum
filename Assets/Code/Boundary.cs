@@ -3,7 +3,7 @@ using UnityEngine;
 [System.Serializable]
 public class Boundary : MonoBehaviour
 {
-	public static float xMin = -24.0f, xMax = 22.0f, zMin = -3.0f, zMax = -1.0f;
+	public static float xMin = -24.0f, xMax = 22.0f, zMin = -25.0f, zMax = -1.0f;
 
 	public static float XMin {
 		get{ return xMin;}
