@@ -19,6 +19,6 @@ public class Boundary : MonoBehaviour
 	}
 	public static float ZMax {
 		get{ return zMax;}
-		set{zMax = value;}
+		set{ zMax = value;}
 	}
 }

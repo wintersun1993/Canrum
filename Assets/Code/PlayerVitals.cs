@@ -2,18 +2,19 @@ using UnityEngine;
 using System.Collections;
 
 public class PlayerVitals : MonoBehaviour
-{
-	public static int level;
-	public static int experience;
-	private static int hp;
+{   
+    private bool gameOver;
+	private bool restart;
+    private static int hp;
 	private static int counter;
 	private static int hpcounter;
+
+	public static int level;
+	public static int experience;
+	
 	public GUIText expText;
 	public GUIText restartText;
 	public GUIText gameOverText;
-
-	private bool gameOver;
-	private bool restart;
 
 	public static int Experience
 	{

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
-	public bool isQuit=false;
+	public bool isQuit = false;
 
 	void OnMouseEnter()
 	{

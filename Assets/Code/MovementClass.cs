@@ -76,7 +76,7 @@ public class MovementClass : MonoBehaviour
 				Mathf.Clamp (rigidbody.position.x,-55.0f, 50.0f), 
 				0.0f, 
 				Mathf.Clamp (rigidbody.position.z, -40.0f, 16.0f)
-				);
+			);
 	}  	
 }
 

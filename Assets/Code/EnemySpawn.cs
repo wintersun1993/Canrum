@@ -20,7 +20,7 @@ public class EnemySpawn : MonoBehaviour
 		}
 		set
 		{
-			spawnWait=value;
+			spawnWait = value;
 		}
 	}
 
