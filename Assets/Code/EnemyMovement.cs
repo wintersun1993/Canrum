@@ -4,13 +4,15 @@ using System.Collections.Generic;
 
 public class EnemyMovement : MonoBehaviour
 {
-	private float MinDist=0.0f;
-	private float speed=-3;
+	private float minDist;
+	private float speed;
 
 	public Transform Player;
 	
 	void Start()
 	{
+		minDist = 0.0f;
+		speed = -3;
 		Player = GameObject.FindWithTag ("Player").transform;
 	}
 	
@@ -18,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
 	{
 		transform.LookAt(Player);
 		
-		if(Vector3.Distance(transform.position,Player.position) >= MinDist)
+		if(Vector3.Distance(transform.position,Player.position) >= minDist)
 		{
 			transform.position -= transform.forward*speed*Time.deltaTime;
 		}

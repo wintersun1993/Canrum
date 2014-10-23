@@ -3,11 +3,10 @@ using System.Collections;
 
 public class MovementClass : MonoBehaviour
 {   
-    private float RotationSpeed = 5.0f;
- 
-    public int seconds = 0;
-	public bool colliding = false;
-	public float speed = 6.0f; 
+    private float rotationSpeed;
+ 	public int seconds;
+	public bool colliding;
+	public float speed; 
     
 	public Vector3 target;
 	public Transform Target;
@@ -19,6 +18,10 @@ public class MovementClass : MonoBehaviour
 
 	public void Start ()
 	{		
+		rotationSpeed = 5.0f;
+		seconds = 0;
+		colliding = false;
+		speed = 6.0f; 
 		target = transform.position;
 	}
 	
@@ -65,7 +68,7 @@ public class MovementClass : MonoBehaviour
 			_lookRotation = Quaternion.LookRotation(_direction);
 		}
 
-		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
+		transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * rotationSpeed);
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
 		rigidbody.position = new Vector3 

@@ -3,7 +3,14 @@ using System.Collections;
 
 public class EnemySpawn : MonoBehaviour
 {   
-    public static float spawnWait = 3;
+    public static float spawnWait;
+
+	public float startWait;
+	public float waveWait;
+
+	public GameObject enemy;
+	public Vector3 spawnValues;
+	public int enemyCount;
 
 	public static float SpawnWait
 	{
@@ -16,16 +23,14 @@ public class EnemySpawn : MonoBehaviour
 			spawnWait=value;
 		}
 	}
-    
-    public float startWait = 1;
-	public float waveWait = 1;
 
-	public GameObject enemy;
-	public Vector3 spawnValues;
-	public int enemyCount = 30;
 	
 	void Start ()
-	{
+	{	
+		spawnWait = 3;
+		startWait = 1;
+		waveWait = 1;
+		enemyCount = 30;
 		StartCoroutine (SpawnWaves ());
 	}
 	

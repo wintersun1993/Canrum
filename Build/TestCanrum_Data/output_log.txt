@@ -13,15 +13,15 @@ Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build
 Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Boyan\Desktop\Teamwork C#\CanrumPreFinal\trunk\Build\TestCanrum_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.083 seconds
+- Completed reload, in  0.149 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.729422 ms
+UnloadTime: 0.791511 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 309.
-Total: 4.081733 ms (FindLiveObjects: 0.020044 ms CreateObjectMapping: 0.023955 ms MarkObjects: 0.233688 ms  DeleteObjects: 2.862933 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 308.
+Total: 5.086889 ms (FindLiveObjects: 0.020044 ms CreateObjectMapping: 0.021511 ms MarkObjects: 0.233200 ms  DeleteObjects: 3.608978 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at PlayerVitals.Start () [0x00000] in <filename unknown>:0 
@@ -59,4 +59,611 @@ Look rotation viewing vector is zero
 Look rotation viewing vector is zero
  
 (Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.142356 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 327.
+Total: 1.146933 ms (FindLiveObjects: 0.020044 ms CreateObjectMapping: 0.021022 ms MarkObjects: 0.284533 ms  DeleteObjects: 0.007822 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerVitals.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 57)
+
+100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 

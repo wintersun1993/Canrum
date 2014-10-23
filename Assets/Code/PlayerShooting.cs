@@ -12,11 +12,13 @@ public class PlayerShooting : MonoBehaviour {
 	private float fireRate;
 	private float nextFire;
 
-	private int shieldUse=4;
-	private int laserShot=50;
-	private int rocketShots=100;
+	private int hpCurr;
 
-	private int gunsType = 1;
+	private int shieldUse;
+	private int laserShot;
+	private int rocketShots;
+
+	private int gunsType;
 
 	public static int gun1Shots;
 	public static int gun2Shots;
@@ -26,8 +28,18 @@ public class PlayerShooting : MonoBehaviour {
 	public bool shieldActive = false;
 	public GameObject explosion;
 
+	void Start()
+	{
+		shieldUse=4;
+		laserShot=50;
+		rocketShots=100;
+		gunsType = 1;
+		hpCurr = PlayerVitals.HP;
+	}
+
 	void OnTriggerEnter(Collider other)
 	{
+		Debug.Log (hpCurr);
 		if (shieldActive == true && shieldLife < 5)
 		{
 			audio.Play();
@@ -35,6 +47,7 @@ public class PlayerShooting : MonoBehaviour {
 			Instantiate(explosion, transform.position, transform.rotation);
 			shieldLife += 1;
 			PlayerVitals.Experience+=10;
+			PlayerVitals.HP=hpCurr;
 		}
 
 		if (shieldLife == 5)
@@ -120,6 +133,7 @@ public class PlayerShooting : MonoBehaviour {
 
 			if (GUI.Button (new Rect (0, 200, 100, 50), "Shield :" + shieldUse.ToString ()))
 			{
+				hpCurr=PlayerVitals.HP;
 				gunsType = 4;
 				shield.SetActive (true);
 				shieldActive = true;
